@@ -1,12 +1,10 @@
-from this import d
-
-
 class Person:
-    name = str
-    account = str
-    rol = str
+    names = str
+    document = int
+    age = int
     
-    def __init__(self,name,account,rol):
-        self.name = name
-        self.account = account
-        self.rol = rol
+    def __init__(self,names,document,age):
+        self.names = names
+        self.account = document
+        self.age = age
+
