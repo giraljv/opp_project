@@ -1,14 +1,16 @@
 class Tenniscourt:
     type = str
-    mesure = {}
     location = str
     reservation_time = int
+    reservation_number = int
+    players = str
 
-    def __init__(self,type,mesure,location, reservation_time):
+    def __init__(self,type,location, reservation_time, reservation_number,players):
         self.type = type
-        self.mesure = mesure
         self.location = location
         self.reservation_time = reservation_time
+        self.reservation_number = reservation_number
+        self.players = players
         
     def maintenance(self):
         pass
